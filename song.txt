@@ -2,4 +2,4 @@ verse1.txt
 chorus1.txt
 verse2.txt
 chorus2.txt
-chorus3.txt
+chorus2.txt
