@@ -1,0 +1,381 @@
+commit 8f1341999d992b6c124444c72e46047aefe4b257
+Author: YC <lychgxnn@outlook.com>
+Date:   Thu May 25 00:14:18 2023 +0100
+
+    Merge chorus2 and 3
+
+commit 1f3f211761090e2fe784aec8e8e6eac5e5302375
+Author: YC <lychgxnn@outlook.com>
+Date:   Thu May 25 00:11:20 2023 +0100
+
+    fix chorus3
+
+commit 11fb8b8411485d398be584be9feff798fd20ff2d
+Author: YC <lychgxnn@outlook.com>
+Date:   Thu May 25 00:09:37 2023 +0100
+
+    revert delete of chorus
+
+commit 227f02d8793980570d686c50e2bb97cd8182650d
+Author: YC <lychgxnn@outlook.com>
+Date:   Wed May 24 23:47:44 2023 +0100
+
+    delete a line in the chorus
+
+commit bea29319de36c44de4a1db930fde081d5e8d5e22
+Author: YC <lychgxnn@outlook.com>
+Date:   Wed May 24 23:41:48 2023 +0100
+
+    update song.txt
+
+commit e7873b3d96ad1e0201218a37efc6c0c77e81bfd7
+Author: YC <lychgxnn@outlook.com>
+Date:   Wed May 24 23:40:16 2023 +0100
+
+    add chorus3
+
+commit 372f37eab877b98c44f941141b3f612763fe458d
+Author: YC <lychgxnn@outlook.com>
+Date:   Wed May 24 23:39:15 2023 +0100
+
+    add chorus2
+
+commit b9ae503be05775d45c5b8fd5038ca813d45d14d5
+Author: YC <lychgxnn@outlook.com>
+Date:   Wed May 24 23:37:57 2023 +0100
+
+    add verse2
+
+commit af6efcbf6f498ce6920a02460dece51398d29662
+Author: YC <lychgxnn@outlook.com>
+Date:   Wed May 24 23:36:20 2023 +0100
+
+    add chorus1
+
+commit b6a68885d1b6107faf914b09a29b44d351d4fa73
+Author: YC <lychgxnn@outlook.com>
+Date:   Wed May 24 23:34:56 2023 +0100
+
+    add verse1
+
+commit d56bbee3827d05204cb6b1e6ec3246ccd09d0418
+Author: YC <lychgxnn@outlook.com>
+Date:   Wed May 24 23:30:49 2023 +0100
+
+    add the whole song
+
+     git log -p song.txt
+commit 8f1341999d992b6c124444c72e46047aefe4b257 (HEAD -> master)
+Author: YC <lychgxnn@outlook.com>
+Date:   Thu May 25 00:14:18 2023 +0100
+
+    Merge chorus2 and 3
+
+diff --git a/song.txt b/song.txt
+index e28ae0e..0f00d78 100644
+--- a/song.txt
++++ b/song.txt
+@@ -2,4 +2,4 @@ verse1.txt
+ chorus1.txt
+ verse2.txt
+ chorus2.txt
+-chorus3.txt
+\ No newline at end of file
++chorus2.txt
+\ No newline at end of file
+
+commit bea29319de36c44de4a1db930fde081d5e8d5e22
+Author: YC <lychgxnn@outlook.com>
+Date:   Wed May 24 23:41:48 2023 +0100
+
+    update song.txt
+
+diff --git a/song.txt b/song.txt
+index 49fd810..e28ae0e 100644
+--- a/song.txt
++++ b/song.txt
+@@ -1,48 +1,5 @@
+-I used to rule the world
+-Seas would rise when I gave the word
+-Now in the morning, I sleep alone
+-Sweep the streets I used to own
+-I used to roll the dice
+-Feel the fear in my enemy's eyes
+-Listen as the crowd would sing
+-Now the old king is dead, long live the king
+-One minute, I held the key
+-Next the walls were closed on me
+-And I discovered that my castles stand
+-Upon pillars of salt and pillars of sand
+-I hear Jerusalem bells are ringing
+-Roman Cavalry choirs are singing
+-Be my mirror, my sword and shield
+-My missionaries in a foreign field
+-For some reason, I can't explain
+-Once you'd gone, there was never, never an honest word
+-And that was when I ruled the world
+-It was the wicked and wild wind
+-Blew down the doors to let me in
+-Shattered windows and the sound of drums
+-People couldn't believe what I'd become
+-Revolutionaries wait
+-For my head on a silver plate
+-Just a puppet on a lonely string
+-Oh, who would ever want to be king?
+-I hear Jerusalem bells are ringing
+-Roman Calvary choirs are singing
+-Be my mirror, my sword and shield
+-My missionaries in a foreign field
+-For some reason, I can't explain
+-I know Saint Peter won't call my name
+-Never an honest word
+-But that was when I ruled the world
+-Oh-oh-oh, oh-oh, oh
+-Oh-oh-oh, oh-oh, oh
+-Oh-oh-oh, oh-oh, oh
+-Oh-oh-oh, oh-oh, oh
+-Oh-oh-oh, oh-oh, oh
+-Hear Jerusalem bells are ringing
+-Roman Calvary choirs are singing
+-Be my mirror, my sword and shield
+-My missionaries in a foreign field
+-For some reason I can't explain
+-I know Saint Peter won't call my name
+-Never an honest word
+-But that was when I ruled the world
+\ No newline at end of file
++verse1.txt
++chorus1.txt
++verse2.txt
++chorus2.txt
++chorus3.txt
+\ No newline at end of file
+
+commit d56bbee3827d05204cb6b1e6ec3246ccd09d0418
+Author: YC <lychgxnn@outlook.com>
+Date:   Wed May 24 23:30:49 2023 +0100
+
+    add the whole song
+
+diff --git a/song.txt b/song.txt
+new file mode 100644
+index 0000000..49fd810
+--- /dev/null
++++ b/song.txt
+@@ -0,0 +1,48 @@
++I used to rule the world
++Seas would rise when I gave the word
++Now in the morning, I sleep alone
++Sweep the streets I used to own
++I used to roll the dice
++Feel the fear in my enemy's eyes
++Listen as the crowd would sing
++Now the old king is dead, long live the king
++One minute, I held the key
++Next the walls were closed on me
++And I discovered that my castles stand
++Upon pillars of salt and pillars of sand
++I hear Jerusalem bells are ringing
++Roman Cavalry choirs are singing
++Be my mirror, my sword and shield
++My missionaries in a foreign field
++For some reason, I can't explain
++Once you'd gone, there was never, never an honest word
++And that was when I ruled the world
++It was the wicked and wild wind
++Blew down the doors to let me in
++Shattered windows and the sound of drums
++People couldn't believe what I'd become
++Revolutionaries wait
++For my head on a silver plate
++Just a puppet on a lonely string
++Oh, who would ever want to be king?
++I hear Jerusalem bells are ringing
++Roman Calvary choirs are singing
++Be my mirror, my sword and shield
++My missionaries in a foreign field
++For some reason, I can't explain
++I know Saint Peter won't call my name
++Never an honest word
++But that was when I ruled the world
++Oh-oh-oh, oh-oh, oh
++Oh-oh-oh, oh-oh, oh
++Oh-oh-oh, oh-oh, oh
++Oh-oh-oh, oh-oh, oh
++Oh-oh-oh, oh-oh, oh
++Hear Jerusalem bells are ringing
++Roman Calvary choirs are singing
++Be my mirror, my sword and shield
++My missionaries in a foreign field
++For some reason I can't explain
++I know Saint Peter won't call my name
++Never an honest word
++But that was when I ruled the world
+\ No newline at end of file
+(END)
+
+$ git log -p verse1.txt
+commit b6a68885d1b6107faf914b09a29b44d351d4fa73
+Author: YC <lychgxnn@outlook.com>
+Date:   Wed May 24 23:34:56 2023 +0100
+
+    add verse1
+
+diff --git a/verse1.txt b/verse1.txt
+new file mode 100644
+index 0000000..b18742f
+--- /dev/null
++++ b/verse1.txt
+@@ -0,0 +1,12 @@
++I used to rule the world
++Seas would rise when I gave the word
++Now in the morning, I sleep alone
++Sweep the streets I used to own
++I used to roll the dice
++Feel the fear in my enemy's eyes
++Listen as the crowd would sing
++Now the old king is dead, long live the king
++One minute, I held the key
++Next the walls were closed on me
++And I discovered that my castles stand
++Upon pillars of salt and pillars of sand
+\ No newline at end of file
+(END)
+
+$ git log -p verse2.txt
+commit b9ae503be05775d45c5b8fd5038ca813d45d14d5
+Author: YC <lychgxnn@outlook.com>
+Date:   Wed May 24 23:37:57 2023 +0100
+
+    add verse2
+
+diff --git a/verse2.txt b/verse2.txt
+new file mode 100644
+index 0000000..8da7282
+--- /dev/null
++++ b/verse2.txt
+@@ -0,0 +1,8 @@
++It was the wicked and wild wind
++Blew down the doors to let me in
++Shattered windows and the sound of drums
++People couldn't believe what I'd become
++Revolutionaries wait
++For my head on a silver plate
++Just a puppet on a lonely string
++Oh, who would ever want to be king?
+\ No newline at end of file
+(END)
+
+$ git log -p chorus1.txt
+commit 11fb8b8411485d398be584be9feff798fd20ff2d
+Author: YC <lychgxnn@outlook.com>
+Date:   Thu May 25 00:09:37 2023 +0100
+
+    revert delete of chorus
+
+diff --git a/chorus1.txt b/chorus1.txt
+index 7a6b234..4241fc5 100644
+--- a/chorus1.txt
++++ b/chorus1.txt
+@@ -1,3 +1,4 @@
++I hear Jerusalem bells are ringing
+ Roman Cavalry choirs are singing
+ Be my mirror, my sword and shield
+ My missionaries in a foreign field
+
+commit 227f02d8793980570d686c50e2bb97cd8182650d
+Author: YC <lychgxnn@outlook.com>
+Date:   Wed May 24 23:47:44 2023 +0100
+
+    delete a line in the chorus
+
+diff --git a/chorus1.txt b/chorus1.txt
+index 4241fc5..7a6b234 100644
+--- a/chorus1.txt
++++ b/chorus1.txt
+@@ -1,4 +1,3 @@
+-I hear Jerusalem bells are ringing
+ Roman Cavalry choirs are singing
+ Be my mirror, my sword and shield
+ My missionaries in a foreign field
+
+commit af6efcbf6f498ce6920a02460dece51398d29662
+Author: YC <lychgxnn@outlook.com>
+Date:   Wed May 24 23:36:20 2023 +0100
+
+    add chorus1
+
+diff --git a/chorus1.txt b/chorus1.txt
+new file mode 100644
+index 0000000..4241fc5
+--- /dev/null
++++ b/chorus1.txt
+@@ -0,0 +1,7 @@
++I hear Jerusalem bells are ringing
++Roman Cavalry choirs are singing
++Be my mirror, my sword and shield
++My missionaries in a foreign field
++For some reason, I can't explain
++Once you'd gone, there was never, never an honest word
++And that was when I ruled the world
+\ No newline at end of file
+(END)
+
+$ git log -p chorus2.txt
+commit 11fb8b8411485d398be584be9feff798fd20ff2d
+Author: YC <lychgxnn@outlook.com>
+Date:   Thu May 25 00:09:37 2023 +0100
+
+    revert delete of chorus
+
+diff --git a/chorus2.txt b/chorus2.txt
+index df722f1..cb04778 100644
+--- a/chorus2.txt
++++ b/chorus2.txt
+@@ -1,3 +1,4 @@
++I hear Jerusalem bells are ringing
+ Roman Calvary choirs are singing
+ Be my mirror, my sword and shield
+ My missionaries in a foreign field
+
+commit 227f02d8793980570d686c50e2bb97cd8182650d
+Author: YC <lychgxnn@outlook.com>
+Date:   Wed May 24 23:47:44 2023 +0100
+
+    delete a line in the chorus
+
+diff --git a/chorus2.txt b/chorus2.txt
+index cb04778..df722f1 100644
+--- a/chorus2.txt
++++ b/chorus2.txt
+@@ -1,4 +1,3 @@
+-I hear Jerusalem bells are ringing
+ Roman Calvary choirs are singing
+ Be my mirror, my sword and shield
+ My missionaries in a foreign field
+
+commit 372f37eab877b98c44f941141b3f612763fe458d
+Author: YC <lychgxnn@outlook.com>
+Date:   Wed May 24 23:39:15 2023 +0100
+
+    add chorus2
+
+diff --git a/chorus2.txt b/chorus2.txt
+new file mode 100644
+index 0000000..cb04778
+--- /dev/null
++++ b/chorus2.txt
+@@ -0,0 +1,8 @@
++I hear Jerusalem bells are ringing
++Roman Calvary choirs are singing
++Be my mirror, my sword and shield
++My missionaries in a foreign field
++For some reason, I can't explain
++I know Saint Peter won't call my name
++Never an honest word
++But that was when I ruled the world
+\ No newline at end of file
+(END)
+
+
+
